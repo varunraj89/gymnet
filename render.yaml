@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: gymnet
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: node server.js
+    envVars:
+      - key: DATA_DIR
+        value: /tmp/gymnet-data
