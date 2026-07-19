@@ -1,0 +1,7 @@
+gymnet.db
+gymnet.db-wal
+gymnet.db-shm
+uploads/
+node_modules/
+*.log
+.DS_Store
